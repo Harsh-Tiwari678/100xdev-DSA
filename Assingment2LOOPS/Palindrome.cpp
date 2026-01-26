@@ -6,7 +6,8 @@ int main (){
     long long  rev =0;
     long long  temp =n;
     if(n==0){
-        cout<<0;
+        cout<<"YES";
+        return 0;
     }
     while(n!=0){
         rev = (rev*10) + n%10;

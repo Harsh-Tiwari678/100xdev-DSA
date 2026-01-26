@@ -4,12 +4,10 @@ int main (){
     long long n ;
     cin>>n;
     long long ans =0;
-    if(n==0){
-        cout<<0;
-    }
+    
     while(n!=0){
         ans = (ans*10) + n%10; //cushion space for the next element 
         n = n/10;
     }
     cout<<ans;
-}
+}   // leading zero problm

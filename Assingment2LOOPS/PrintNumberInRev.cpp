@@ -10,4 +10,4 @@ cin>>n;
      cout<<n%10;
      n=n/10;
  }
-}
+} // leading 0 problem lile 0987 
